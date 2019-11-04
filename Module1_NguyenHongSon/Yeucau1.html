@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var name = prompt("Nhập tên: ");
+        var idcard = prompt("Nhập idCard: ");
+        var birthday = prompt("Nhập ngày sinh MM/DD/YYYY: ");
+        var mail = prompt("Nhập email: ");
+        var address = prompt("Nhập địa chỉ: ");
+        var customer = prompt("Nhập loại khách hàng: ");
+        var discount = prompt("Nhập giảm giá: ");
+        var amount = prompt("Nhập số lượng đi kèm: ");
+        var rentdays = prompt("Nhập số ngày thuê: ");
+        var service = prompt("Nhập dịch vụ sử dụng: ");
+        var typeroom = prompt("Nhập loại phòng thuê: ");
+        var total =500*parseInt(rentdays)*(1-parseFloat(discount)/100);
+        // Hiển thị thông tin
+        // Villa 500$/day; House 300$/day; Room 100$/day
+        alert (
+        "Infor of Customer: \n" +
+         "Tên khách hàng: " + name +
+         "\n id Card Number: " + idcard +
+         "\n Ngày sinh: " + birthday +
+         "\n Địa chỉ email: " + mail +
+         "\n Địa chỉ: " + address +
+         "\n Loại khách hàng: " + customer +
+         "\n Giảm giá: " + discount +
+         "\n Số lượng đi kèm: " + amount +
+         "\n Số ngày thuê: " + rentdays +
+         "\n Dịch vụ sử dụng: " + service +
+         "\n Loại phòng thuê: " + typeroom +
+         "\n Số tiền phải trả: " + total
+
+        )
+
+    </script>
+
+</body>
+</html>
