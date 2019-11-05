@@ -2,9 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Calculator Basic</title>
 </head>
 <body>
-$END$
+    Calculator <br></br>
+    <input type="text" id="result" /></br>
+    <input type="button" id="1" value="1" onclick="result.value+=this.value" />
+    <input type="button" id="2" value="2" onclick="result.value+=this.value"/>
+    <input type="button" id="3" value="3" onclick="result.value+=this.value"/>
+    <input type="button" id="add" value="+" onclick="result.value+=this.value"/></br>
+    <input type="button" id="4" value="4" onclick="result.value+=this.value"/>
+    <input type="button" id="5" value="5" onclick="result.value+=this.value"/>
+    <input type="button" id="6" value="6" onclick="result.value+=this.value"/>
+    <input type="button" id="sub" value="-" onclick="result.value+=this.value"/></br>
+    <input type="button" id="7" value="7" onclick="result.value+=this.value"/>
+    <input type="button" id="8" value="8" onclick="result.value+=this.value"/>
+    <input type="button" id="9" value="9" onclick="result.value+=this.value"/>
+    <input type="button" id="mul" value="*" onclick="result.value+=this.value"/></br>
+    <input type="button" id="del" value="C" onclick="result.value=''"/>
+    <input type="button" id="0" value="0" onclick="result.value+=this.value"/>
+    <input type="button" id="kq" value="=" onclick="result.value=eval(result.value)"/>
+    <input type="button" id="div" value="/" onclick="result.value+=this.value"/>
+
 </body>
 </html>
