@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="ketqua"></p>
+<form>
+<input type = text id ="thang"/>
+<button onclick="hienthi();return false;">Tính số ngày</button>
+</form>
+    <script>
+        function hienthi() {
+            var a = document.getElementById("thang").value;
+            switch (a) {
+                case '4':
+                case '6':
+                case '9':
+                case '11':
+                    alert(a +  " là tháng có 30 ngày");
+                    break;
+                case '2':
+                    alert(a + " là tháng có 28 hoặc 29 ngày");
+                    break;
+                default:
+                    alert(a + " là tháng có 31 ngày");
+                    break;
+
+            }
+        }
+    </script>
+
+</body>
+</html>
