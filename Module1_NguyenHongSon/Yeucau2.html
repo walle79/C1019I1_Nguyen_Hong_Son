@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    var name = "Nguyễn Hồng Sơn";
+    var idcard = "191870245";
+    var birthday = "18/12/1995";
+    var mail = "1995hongson@gmail.com";
+    var address = "K160/62 Trần Cao Vân";
+    var customer = "Gold";
+    var discount = 10;
+    var amount = 2;
+    var rentdays = 7;
+    var service = "House";
+    var typeroom = "Business";
+    var total =500*rentdays*(1-discount/100);
+    var choose = prompt(
+        "1. Hiển thị thông tin khách hàng.\n"+
+        "2. Chỉnh sửa thông tin khách hàng.\n"+
+        "3. Số tiền phải trả.\n"
+    );
+    switch (choose) {
+        case "1":
+            alert (
+                "Thông tin khách hàng: \n" +
+                "Tên khách hàng: " + name +
+                "\n Id Card Number: " + idcard +
+                "\n Ngày sinh: " + birthday +
+                "\n Địa chỉ email: " + mail +
+                "\n Địa chỉ: " + address +
+                "\n Loại khách hàng: " + customer +
+                "\n Giảm giá: " + discount +
+                "\n Số lượng đi kèm: " + amount +
+                "\n Số ngày thuê: " + rentdays +
+                "\n Dịch vụ sử dụng: " + service +
+                "\n Loại phòng thuê: " + typeroom
+            );
+            break;
+        case "2":
+            let chooseEdit = prompt(
+                "Nhập thông tin bạn muốn chỉnh sửa\n"+
+                "1. Tên khách hàng: " + name +
+                "\n2. Id Card Number: " + idcard +
+                "\n3. Ngày sinh: " + birthday +
+                "\n4.  Địa chỉ email: " + mail +
+                "\n5.  Địa chỉ: " + address +
+                "\n6.  Loại khách hàng: " + customer +
+                "\n7.  Giảm giá: " + discount +
+                "\n8.  Số lượng đi kèm: " + amount +
+                "\n9.  Số ngày thuê: " + rentdays +
+                "\n10.  Dịch vụ sử dụng: " + service +
+                "\n11.  Loại phòng thuê: " + typeroom
+            );
+            switch (chooseEdit) {
+                case "1":
+                    name = prompt("Nhập tên bạn muốn chỉnh sửa");
+                    break;
+                case "2":
+                    idcard = prompt("Nhập id card bạn muốn chỉnh sửa");
+                    break;
+                case "3":
+                    birthday = prompt("Nhập ngày sinh bạn muốn chỉnh sửa");
+                    break;
+                case "4":
+                    mail = prompt("Nhập email bạn muốn chỉnh sửa");
+                    break;
+                case "5":
+                    address = prompt("Nhập địa chỉ bạn muốn chỉnh sửa");
+                    break;
+                case "6":
+                    customer = prompt("Nhập loại khác hàng bạn muốn chỉnh sửa");
+                    break;
+                case "7":
+                    discount = prompt("Nhập giảm giá bạn muốn chỉnh sửa");
+                    break;
+                case "8":
+                    amount = prompt("Nhập số lượng đi kèm chỉnh sửa");
+                    break;
+                case "9":
+                    rentdays = prompt("Nhập số ngày thuê cần chỉnh sửa");
+                    break;
+                case "10":
+                    service = prompt("Nhập thay đổi dịch vụ sử dụng");
+                    break;
+                case "11":
+                    typeroom = prompt("Nhập thay đổi loại phòng thuê");
+                    break;
+                default:
+                    alert("Failed!");
+                    break;
+            }
+            alert (
+                "Thông tin khách hàng: \n" +
+                "Tên khách hàng: " + name +
+                "\n Id Card Number: " + idcard +
+                "\n Ngày sinh: " + birthday +
+                "\n Địa chỉ email: " + mail +
+                "\n Địa chỉ: " + address +
+                "\n Loại khách hàng: " + customer +
+                "\n Giảm giá: " + discount +
+                "\n Số lượng đi kèm: " + amount +
+                "\n Số ngày thuê: " + rentdays +
+                "\n Dịch vụ sử dụng: " + service +
+                "\n Loại phòng thuê: " + typeroom
+            );
+
+    }
+    // Hiển thị thông tin
+    // Villa 500$/day; House 300$/day; Room 100$/day
+
+
+</script>
+</body>
+</html>
