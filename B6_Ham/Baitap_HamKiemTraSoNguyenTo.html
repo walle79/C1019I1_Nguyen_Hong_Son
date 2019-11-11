@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var n = prompt("Nhập vào số bất kì");
+        n = kiem_tra_snt(n);
+        function kiem_tra_snt(n)
+        {
+            var flag = true;
+            if (n < 2){
+                flag = false;
+            }
+            else{
+                for (var i = 2; i < n-1; i++)
+                {
+                    if (n % i == 0){
+                        flag = false;
+                        break;
+                    }
+                }
+            }
+            if (flag == true){
+                document.write(n + " là số nguyên tố <br/>");
+            }
+            else{
+                document.write(n + " không phải là số nguyên tố <br/>");
+            }
+        }
+    </script>
+
+</body>
+</html>

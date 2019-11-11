@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var arrNum = [-3,5,1,3,2,10];
+        var fir = 0;
+        var last = arrNum.length - 1;
+        while(fir<last){
+            var b = arrNum[fir];
+            arrNum[fir]=arrNum[last];
+            arrNum[last]=b;
+            fir++;
+            last--;
+        }
+        document.write(arrNum);
+
+    </script>
+
+</body>
+</html>

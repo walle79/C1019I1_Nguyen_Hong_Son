@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi meter & feet</title>
+</head>
+<body>
+    <script>
+        function footToMeter(f) {
+            return 0.305*f;
+        }
+        function meterToFooot(m) {
+            return 3.279*m;
+        }
+        var a = prompt("Bạn muốn chuyển đổi gì?\n"+
+        "\n1. Meter to Feet" +
+        "\n2. Feet to Meter");
+        switch (a) {
+            case '1':
+                m = prompt("Nhập số meter bạn muốn chuyển đổi");
+                alert(meterToFooot(m));
+                break;
+
+            case '2':
+                f = prompt("Nhập số feet bạn muốn chuyển đổi");
+                alert(footToMeter(f));
+                break;
+            default:
+                alert("Chọn không hợp lệ");
+                break;
+        }
+
+
+    </script>
+
+</body>
+</html>
