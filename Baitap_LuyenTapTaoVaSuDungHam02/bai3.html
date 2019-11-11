@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var num = parseInt(prompt("Nhập vào 1 số"));
+        function factorialize(num) {
+            var result = num;
+            if (num === 0 || num === 1) {
+                return 1;
+            }
+            while(num > 1) {
+                num--;
+                result *= num;
+            }
+            return result;
+        }
+         var ketqua = factorialize(num);
+        alert("Giai thừa của " + num + " là " + ketqua);
+
+    </script>
+
+</body>
+</html>
