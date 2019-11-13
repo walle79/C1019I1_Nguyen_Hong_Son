@@ -6,47 +6,16 @@
 </head>
 <body>
     <script>
-    var a = prompt("Nhập vào kí tự bất kỳ");
+    var a = prompt("Nhập vào 1 ký tự");
     kiemTra(a);
-        function kiemTra(a) {
-            switch (a) {
-                case '0':
-                    alert(a + " là ký tự số");
-                    break;
-
-                case '1':
-                    alert(a + " là ký tự số");
-                    break;
-                case '2':
-                    alert(a + " là ký tự số");
-                    break;
-                case '3':
-                    alert(a + " là ký tự số");
-                    break;
-                case '4':
-                    alert(a + " là ký tự số");
-                    break;
-                case '5':
-                    alert(a + " là ký tự số");
-                    break;
-                case '6':
-                    alert(a + " là ký tự số");
-                    break;
-                case '7':
-                    alert(a + " là ký tự số");
-                    break;
-                case '8':
-                    alert(a + " là ký tự số");
-                    break;
-                case '9':
-                    alert(a + " là ký tự số");
-                    break;
-                default:
-                    alert("Failled!!");
-                    break;
-            }
+    function kiemTra(a) {
+        if(isNaN(a)){
+            return false;
+        } else {
+            return true;
         }
-
+    }
+    alert(kiemTra(a));
 
     </script>
 

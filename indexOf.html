@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+<h1>Học lập trình miễn phí tại freetuts.net</h1>
+<p>Click vào button để kiểm tra.</p>
+
+<button onclick="myFunction()">In</button>
+
+<p id="demo"></p>
+
+<script>
+    demoP = document.getElementById("demo");
+
+    function myFunction(item, index) {
+        var subject = ["html", "php", "php", "c#"];
+        var a = subject.indexOf("php");
+        document.getElementById("demo").innerHTML = a;
+    }
+</script>
+</body>
+</html>
