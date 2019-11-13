@@ -5,21 +5,31 @@
     <title>Title</title>
 </head>
 <body>
-<p id="ketqua"></p>
-<input type="text" id="number">
-<button onclick="hienThi()">Bấm vô đây nè!</button>
-    <script>
+<!--<p id="ketqua"></p>-->
+<!--<input type="text" id="number">-->
 
-        function hienThi(){
-            var a = parseInt(document.getElementById("number"));
-            a += 1;
-            ketqua.innerText = a.value;
-        }
+<!--<button onclick="hienThi()">Bấm vô đây nè!</button>-->
+<!--    <script>-->
+
+<!--        function hienThi(){-->
+<!--            var a = parseInt(document.getElementById("number"));-->
+<!--            a += 1;-->
+<!--            ketqua.innerText = a.value;-->
+<!--        }-->
+<input id="nhapSo">
+<button onclick="result();return false;">Result</button>
+<script>
+    function result() {
+        let a = parseInt(document.getElementById("nhapSo").value);
+        a = a+1;
+        document.write(a);
+    }
+</script>
 
 
 
 
-    </script>
+
 
 </body>
 </html>
