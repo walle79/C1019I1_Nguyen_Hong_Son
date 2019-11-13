@@ -7,18 +7,18 @@
 <body>
 
 <script>
+    // 5000-500=4500-20-1-30-54444
     var name = "Nguyễn Hồng Sơn";
     var idcard = "191870245";
-    var birthday = "18/12/1995";
+    var birthdayCustomer = "12/18/1995";
     var mail = "1995hongson@gmail.com";
-    var address = "K160/62 Trần Cao Vân";
+    var address = "Đà Nẵng";
     var customer = "Gold";
     var discount = 10;
     var amount = 2;
-    var rentdays = 7;
-    var service = "House";
+    var rentdays = 10;
+    var service = "Villa";
     var typeroom = "Business";
-    var total =500*rentdays*(1-discount/100);
     var choose = prompt(
         "1. Hiển thị thông tin khách hàng.\n"+
         "2. Chỉnh sửa thông tin khách hàng.\n"+
@@ -30,7 +30,7 @@
                 "Thông tin khách hàng: \n" +
                 "Tên khách hàng: " + name +
                 "\n Id Card Number: " + idcard +
-                "\n Ngày sinh: " + birthday +
+                "\n Ngày sinh: " + birthdayCustomer +
                 "\n Địa chỉ email: " + mail +
                 "\n Địa chỉ: " + address +
                 "\n Loại khách hàng: " + customer +
@@ -46,7 +46,7 @@
                 "Nhập thông tin bạn muốn chỉnh sửa\n"+
                 "1. Tên khách hàng: " + name +
                 "\n2. Id Card Number: " + idcard +
-                "\n3. Ngày sinh: " + birthday +
+                "\n3. Ngày sinh: " + birthdayCustomer +
                 "\n4.  Địa chỉ email: " + mail +
                 "\n5.  Địa chỉ: " + address +
                 "\n6.  Loại khách hàng: " + customer +
@@ -64,7 +64,7 @@
                     idcard = prompt("Nhập id card bạn muốn chỉnh sửa");
                     break;
                 case "3":
-                    birthday = prompt("Nhập ngày sinh bạn muốn chỉnh sửa");
+                    birthdayCustomer = prompt("Nhập ngày sinh bạn muốn chỉnh sửa");
                     break;
                 case "4":
                     mail = prompt("Nhập email bạn muốn chỉnh sửa");
@@ -98,7 +98,7 @@
                 "Thông tin khách hàng: \n" +
                 "Tên khách hàng: " + name +
                 "\n Id Card Number: " + idcard +
-                "\n Ngày sinh: " + birthday +
+                "\n Ngày sinh: " + birthdayCustomer +
                 "\n Địa chỉ email: " + mail +
                 "\n Địa chỉ: " + address +
                 "\n Loại khách hàng: " + customer +
@@ -108,7 +108,58 @@
                 "\n Dịch vụ sử dụng: " + service +
                 "\n Loại phòng thuê: " + typeroom
             );
+            break;
+        case '3':
+            let moneyPerDays = 0;
+            if(service === "Villa"){
+                moneyPerDays = 500;
+            } else if(service === "House"){
+                moneyPerDays = 300;
+            } else {
+                moneyPerDays = 100;
+            }
+            let discountCondition = 0;
+            let currentYear = new Date().getFullYear();
+            let birthday = new Date(birthdayCustomer).getFullYear();
+            let ageCustomer = currentYear - birthday;
 
+            if(address === "Đà Nẵng"){
+                discountCondition += 20;
+                if(ageCustomer >30){
+                    discountCondition += 2;
+                } else if(ageCustomer >=20){
+                    discountCondition +=1;
+                }
+            } else if(address === "Huế"){
+                discountCondition += 10;
+            } else if(address === "Quảng Nam"){
+                discountCondition +=5;
+            } else {
+                discountCondition +=0;
+            }
+            if(rentdays > 7){
+                discountCondition +=30;
+            } else if(rentdays >=5){
+                discountCondition +=20;
+            } else if(rentdays >=2){
+                discountCondition +=10;
+            }
+            if(customer === "Diamond"){
+                discountCondition += 15;
+            } else if(customer === "Platinum"){
+                discountCondition +=10;
+            } else if(customer === "Gold"){
+                discountCondition +=5;
+            } else if(customer === "Silver"){
+                discountCondition +=2;
+            }
+            var total =moneyPerDays*rentdays*(1-discount/100);
+            total = total - discountCondition;
+            alert("Số tiền sau khi giảm giá là: " + total);
+            break;
+        default:
+            alert("Fail!!");
+            break;
     }
     // Hiển thị thông tin
     // Villa 500$/day; House 300$/day; Room 100$/day

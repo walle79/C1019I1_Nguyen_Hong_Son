@@ -5,25 +5,30 @@
     <title>Title</title>
 </head>
 <body>
-<p id="ketqua"></p>
-    <script>
-        var a = prompt("Nhập từ cần tra");
-        var ketqua = document.getElementById("ketqua");
-        var arrEng = ["Dog","Tree","Chicken","Book","Pen","School"];
-        var arrVie = ["Con chó","Cái cây","Con gà","Quyển sách","Cây viết","Trường học"];
-        for(i=0;i<arrEng.length;i++) {
-            for (j = 1; j < arrVie.length; j++) {
-                if (a = arrEng[i]) {
-                    alert(arrVie[j]);
-                } else alert("Không tìm thấy");
-            }
+<form>
+    Nhap Tu Can Tim Kiem: <br>
+    <input id="EnterTheWord">
+    <input type='button' value='Look Word' onclick='lookWord()'>
+    <p id = "result"></p>
+</form>
+<script>
+    let arrVie = ["Chuoi","Tao","Chanh"];
+    let arrEng = ["Banana","Apple","Lemon"];
+    function lookWord() {
+        let key = document.getElementById("EnterTheWord");
+        let indexVie = arrVie.indexOf(key.value);
+        let indexEng = arrEng.indexOf(key.value);
+        let result = document.getElementById("result");
+        if (indexEng != -1) {
+            result.innerText = arrVie[indexEng];
         }
-
-
-
-
-
-    </script>
-
+        if (indexVie != -1) {
+            result.innerText = arrEng[indexVie];
+        }
+        else {
+            alert("Khong co gia tri");
+        }
+    }
+</script>
 </body>
 </html>
