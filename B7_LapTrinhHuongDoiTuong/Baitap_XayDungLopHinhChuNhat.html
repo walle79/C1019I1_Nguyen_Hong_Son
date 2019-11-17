@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+<body>
+    <script>
+        var myRectangle = function (length, width) {
+            this.length = length;
+            this.width = width;
+
+        this.getLength = function () {
+            return this.length;
+        };
+        this.getWidth = function () {
+            return this.width;
+        };
+        this.getArea = function () {
+            return length*width;
+        };
+        this.getChuvi = function () {
+            return (length+width)*2;
+        };
+
+        };
+
+        var rectangle = new myRectangle(200,100);
+        var length = rectangle.getLength();
+        var width = rectangle.getWidth();
+        var area = rectangle.getArea();
+        var chuvi = rectangle.getChuvi();
+        document.write("Diện tích là: " + area + "<br/>"+ "Chu vi là: " + chuvi);
+
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#FFF000";
+        ctx.fillRect(0,0,200,100);
+
+    </script>
+
+</body>
+</html>

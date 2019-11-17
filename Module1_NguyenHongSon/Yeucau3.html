@@ -6,34 +6,166 @@
 </head>
 <body>
 <script>
-    var name = prompt("Nhập tên: ");
-    var idcard = prompt("Nhập idCard: ");
-    var birthday = prompt("Nhập ngày sinh MM/DD/YYYY: ");
-    var mail = prompt("Nhập email: ");
-    var address = prompt("Nhập địa chỉ: ");
-    var customer = prompt("Nhập loại khách hàng: ");
-    var discount = prompt("Nhập giảm giá: ");
-    var amount = prompt("Nhập số lượng đi kèm: ");
-    var rentdays = prompt("Nhập số ngày thuê: ");
-    var service = prompt("Nhập dịch vụ sử dụng: ");
-    var typeroom = prompt("Nhập loại phòng thuê: ");
-    var total =500*parseInt(rentdays)*(1-parseFloat(discount)/100);
+    var nameCustomer = prompt("Nhập tên: ");
+    var checkValidate = false;
+    var emailCustomer;
+    var birthdayCustomer;
+    var idCard;
+    var rentDays;
+    var nameStandardized = "";
+    nameCustomer = nameCustomer.trim().toLocaleLowerCase();
+    for(i=0;i<nameCustomer.length;i++){
+        if(nameCustomer.charAt(i) === " " && nameCustomer.charAt(i+1) === " "){
+            continue;
+        }
+        if(i === 0 || nameCustomer.charAt(i-1)=== " "){
+            nameStandardized += nameCustomer.charAt(i).toLocaleUpperCase();
+            continue; // k có sẽ thực thi câu lệnh dứi -> lặp 2 kí tự
+        }
+        nameStandardized += nameCustomer.charAt(i);
+    }
+    nameCustomer = nameStandardized;
+
+
+
+    do{
+        checkValidate = false;
+        rentDays = prompt("Nhập số ngày thuê: ");
+        if(!isNaN(rentDays)){
+            rentDays = Number.parseFloat(rentDays);
+            if(rentDays>0 && Number.isInteger(rentDays)){
+                checkValidate = true;
+            }
+        }
+        if(!checkValidate){
+            alert("rentDays is inValid");
+        }
+    }while(!checkValidate);
+
+
+
+    var amount;
+    do{
+        checkValidate = false;
+        amount = prompt("Nhập số lượng đi kèm: ");
+        if(!isNaN(amount)){
+            amount = Number.parseFloat(amount);
+            if(amount>=0 && Number.isInteger(amount)){
+                checkValidate = true;
+            }
+        }
+        if(!checkValidate){
+            alert("amount is inValid");
+        }
+    }while(!checkValidate);
+
+
+    var discount;
+    do{
+        checkValidate = false;
+        discount = prompt("Nhập giảm giá: ");
+        if(!isNaN(discount)){
+            discount = Number.parseFloat(discount);
+            if(discount>=0){
+                checkValidate = true;
+            }
+        }
+        if(!checkValidate){
+            alert("discount is inValid");
+        }
+    }while(!checkValidate);
+
+
+    do{
+        checkValidate = false;
+        idCard = prompt("Nhập idCard: ");
+        if(isNaN(idCard)){
+            alert("idCard is inValid");
+            continue;
+        }
+        idCard = Number.parseFloat(idCard);
+        if(!Number.isInteger(idCard)){
+            alert("idCard is inValid");
+            continue;
+        }
+        if(idCard>=100000000 && idCard <= 9999999999){
+            checkValidate = true;
+        }
+        else {
+            alert("idCard is inValid");
+        }
+    }while(!checkValidate);
+
+
+
+    do{
+        checkValidate = false;
+        birthdayCustomer = prompt("Nhập ngày sinh MM/DD/YYYY: ");
+        if(birthdayCustomer.charAt(2)!=='/' || birthdayCustomer.charAt(5)!=='/'){
+            alert("Birthday is inValid");
+            continue;
+        }
+        let day = birthdayCustomer.substring(0,2);
+        let month = birthdayCustomer.substring(3,5);
+        let year = birthdayCustomer.substring(6,10);
+        if(!isNaN(day) && !isNaN(month) && !isNaN(year)){
+            day = Number.parseFloat(day);
+            month = Number.parseFloat(month);
+            year = Number.parseFloat(year);
+            if(Number.isInteger(day)&&Number.isInteger(month)&&Number.isInteger(year)){
+                if(day>0 && day <32 && month >0 && month <13 && year > 1960 && year <2020){
+                    checkValidate = true;
+                }
+            }
+        }
+        if(!checkValidate){
+            alert("Birthday is inValid");
+        }
+    }while(!checkValidate);
+
+
+    do {
+        checkValidate = true;
+        emailCustomer = prompt("Nhập email: ");
+        let countDoc = 0;
+        let countAt = 0;
+        for(i=0;i<emailCustomer.length;i++){
+            if(emailCustomer.charAt(i)==="@"){
+                countAt++;
+            }
+            if(emailCustomer.charAt(i)==="."){
+                countDoc++;
+            }
+        }
+        if(countAt !==1 || countDoc <1){
+            checkValidate = false;
+            alert("Mail is inValid!");
+        }
+    } while(!checkValidate);
+    // var addressCustomer = prompt("Nhập địa chỉ: ");
+    // var typeCustomer = prompt("Nhập loại khách hàng: ");
+
+
+
+    // var typeService = prompt("Nhập dịch vụ sử dụng: ");
+    // var typeRoom = prompt("Nhập loại phòng thuê: ");
+    // var totalPays =500*parseInt(rentDays)*(1-parseFloat(discount)/100);
     // Hiển thị thông tin
     // Villa 500$/day; House 300$/day; Room 100$/day
     alert (
-        "Infor of Customer: \n" +
-        "Tên khách hàng: " + name +
-        "\n id Card Number: " + idcard +
-        "\n Ngày sinh: " + birthday +
-        "\n Địa chỉ email: " + mail +
-        "\n Địa chỉ: " + address +
-        "\n Loại khách hàng: " + customer +
-        "\n Giảm giá: " + discount +
-        "\n Số lượng đi kèm: " + amount +
-        "\n Số ngày thuê: " + rentdays +
-        "\n Dịch vụ sử dụng: " + service +
-        "\n Loại phòng thuê: " + typeroom +
-        "\n Số tiền phải trả: " + total
+        // "Infor of Customer: \n" +
+        "Tên khách hàng: " + nameCustomer +
+        "\n id Card Number: " + idCard +
+        "\n Ngày sinh: " + birthdayCustomer +
+        "\n Địa chỉ email: " + emailCustomer 
+        // "\n Địa chỉ: " + addressCustomer +
+        // "\n Loại khách hàng: " + typeCustomer +
+        // "\n Giảm giá: " + discount +
+        // "\n Số lượng đi kèm: " + amount +
+        // "\n Số ngày thuê: " + rentDays +
+        // "\n Dịch vụ sử dụng: " + typeService +
+        // "\n Loại phòng thuê: " + typeRoom +
+        // "\n Số tiền phải trả: " + totalPays
 
     )
 

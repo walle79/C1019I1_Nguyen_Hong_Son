@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //task1
+    var x;
+    var arrNameCustomers = [];
+    var menuSelection = prompt("1. Add new customer 2. Delete customer ");
+    switch(menuSelection){
+        case '1':
+            var nameCustomer = prompt("Input amount of customer");
+            for(i=0;i<nameCustomer;i++){
+                arrNameCustomers[i] = prompt("Input name customer");
+            }
+            document.write("<h3>Danh sách đã sắp xếp là </h3>");
+            alert("List name of customer: " + arrNameCustomers);
+            break;
+        case '2':
+            break;
+        default:
+            alert("Invalid choose!");
+    }
+    arrNameCustomers.sort();
+    for (x in arrNameCustomers) {
+        document.write(arrNameCustomers[x]);
+        document.write("<Br>");
+    }
+
+    // //task2
+    // var arrNameCustomers = ['an', 'minh', 'bình', 'tuấn', 'thỷ', 'sơn', 'trâm', 'toàn', 'vũ', 'chi'];
+    // var a = prompt("Chọn người bạn muốn xóa: \n" +
+    //     "\n1. an" +
+    //     "\n2. minh" +
+    //     "\n3. bình" +
+    //     "\n4. tuấn" +
+    //     "\n5. thỷ" +
+    //     "\n6. sơn" +
+    //     "\n7. trâm" +
+    //     "\n8. toàn" +
+    //     "\n9. vũ" +
+    //     "\n10. chi");
+    // switch(a) {
+    //     case '1':
+    //         arrNameCustomers.splice(0,1);
+    //         alert(arrNameCustomers);
+    //         break;
+    //     case '2':
+    //         arrNameCustomers.splice(1,1);
+    //         alert(arrNameCustomers);
+    //         break;
+    //     case '3':
+    //         arrNameCustomers.splice(2,1);
+    //         alert(arrNameCustomers);
+    //         break;
+    //     case '4':
+    //         arrNameCustomers.splice(3,1);
+    //         alert(arrNameCustomers);
+    //         break;
+    //     case '5':
+    //         arrNameCustomers.splice(4,1);
+    //         alert(arrNameCustomers);
+    //         break;
+    //     case '6':
+    //         arrNameCustomers.splice(5,1);
+    //         alert(arrNameCustomers);
+    //         break;
+    //
+    //     case '7':
+    //         arrNameCustomers.splice(6,1);
+    //         alert(arrNameCustomers);
+    //         break;
+    //     case '8':
+    //         arrNameCustomers.splice(7,1);
+    //         alert(arrNameCustomers);
+    //         break;
+    //     case '9':
+    //         arrNameCustomers.splice(8,1);
+    //         alert(arrNameCustomers);
+    //         break;
+    //     case '10':
+    //         arrNameCustomers.splice(9,1);
+    //         alert(arrNameCustomers);
+    //         break;
+    // }
+
+
+
+
+</script>
+
+</body>
+</html>
