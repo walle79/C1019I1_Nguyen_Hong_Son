@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<p id="ketqua"></p>
+<form>
+Amount: <input type="text" id="soluong">
+From Currency: <select id="fromtype">
+                <option id="3">VietNam</option>
+                <option id="4">USD</option>
+                </select>
+To Currency: <select id="totype">
+                <option id="5">VietNam</option>
+                <option id="6">USD</option>
+            </select>
+<button onclick="chuyendoi();return false;">Convert</button>
+</form>
+    <script>
+        function chuyendoi() {
+            var giaTri = document.getElementById("soluong");
+            var fromtype = document.getElementById("fromtype");
+            var totype = document.getElementById("totype");
+            var kq;
+            if (fromtype.value==3 && totype.value==6){
+                kq = giaTri.value / 23000;
+            } else if (fromtype.value==4 && totype.value==5){
+                kq = giaTri.value * 23000;
+            }
+            ketqua.innerText = kq;
+        }
+    </script>
+
+</body>
+</html>

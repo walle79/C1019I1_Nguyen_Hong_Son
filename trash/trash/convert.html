@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="ketqua"></p>
+<form>
+     Amount: <input id="Soluong" >
+     From Currency: <select id="fromtype">
+         <option value="1">VietNam</option>
+         <option value="2">USD</option>
+     </select>
+     To Currency: <select id="totype">
+         <option value="1">VietNam</option>
+         <option value="2">USD</option>
+     </select>
+    <button onclick="hienthi();return false;" >Convert</button>
+</form>
+<script>
+    function hienthi() {
+        var giaTri=document.getElementById("Soluong");
+        var kq;
+        var fromtype=document.getElementById("fromtype");
+        var totype=document.getElementById("totype");
+        if (fromtype.value==1 && totype.value==2){
+           kq= giaTri.value / 23000;
+        } else if (fromtype.value==2 && totype.value==1){
+           kq= giaTri.value * 23000;
+        }
+        ketqua.innerText=kq;
+
+    }
+
+</script>
+</body>
+</html>

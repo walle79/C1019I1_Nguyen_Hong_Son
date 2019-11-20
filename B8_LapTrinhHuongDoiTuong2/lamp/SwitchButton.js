@@ -1,7 +1,7 @@
 var SwitchButton = function () {
     this.setStatus = function (status) {
         this.status = status;
-    }
+    };
     this.getStatus = function () {
         return this.status;
     };
