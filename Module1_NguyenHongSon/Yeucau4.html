@@ -6,90 +6,42 @@
 </head>
 <body>
 <script>
-    //task1
     var x;
     var arrNameCustomers = [];
-    var menuSelection = prompt("1. Add new customer 2. Delete customer ");
+    var menuSelection = prompt("1. Add New Customer" + "\n2. Delete Customer ");
     switch(menuSelection){
         case '1':
-            var nameCustomer = prompt("Input amount of customer");
+            var nameCustomer = prompt("Input Amount Of Customer");
             for(i=0;i<nameCustomer;i++){
-                arrNameCustomers[i] = prompt("Input name customer");
+                arrNameCustomers[i] = prompt("Input Name Customer");
             }
             document.write("<h3>Danh sách đã sắp xếp là </h3>");
-            alert("List name of customer: " + arrNameCustomers);
+            alert("List name of customer: " + "\n" + arrNameCustomers.join("\n"));
+            arrNameCustomers.sort();
+            for (x in arrNameCustomers) {
+                document.write(arrNameCustomers[x]);
+                document.write("<Br>");
+            }
             break;
         case '2':
+            arrNameCustomers = ['An', 'Minh', 'Bình', 'Tuấn', 'Thỷ', 'Sơn', 'Trâm', 'Toàn', 'Vũ', 'Chi'];
+            var a = prompt("Chọn người bạn muốn xóa: \n" +
+                "\n1. An" +
+                "\n2. Minh" +
+                "\n3. Bình" +
+                "\n4. Tuấn" +
+                "\n5. Thỷ" +
+                "\n6. Sơn" +
+                "\n7. Trâm" +
+                "\n8. Toàn" +
+                "\n9. Vũ" +
+                "\n10. Chi");
+            arrNameCustomers.splice(parseInt(a)-1,1);
+            alert("Danh sách sau khi xóa là: "+ "\n" + arrNameCustomers.join("\n"));
             break;
         default:
-            alert("Invalid choose!");
+            alert("Invalid Choose! Please OK & Press F5");
     }
-    arrNameCustomers.sort();
-    for (x in arrNameCustomers) {
-        document.write(arrNameCustomers[x]);
-        document.write("<Br>");
-    }
-
-    // //task2
-    // var arrNameCustomers = ['an', 'minh', 'bình', 'tuấn', 'thỷ', 'sơn', 'trâm', 'toàn', 'vũ', 'chi'];
-    // var a = prompt("Chọn người bạn muốn xóa: \n" +
-    //     "\n1. an" +
-    //     "\n2. minh" +
-    //     "\n3. bình" +
-    //     "\n4. tuấn" +
-    //     "\n5. thỷ" +
-    //     "\n6. sơn" +
-    //     "\n7. trâm" +
-    //     "\n8. toàn" +
-    //     "\n9. vũ" +
-    //     "\n10. chi");
-    // switch(a) {
-    //     case '1':
-    //         arrNameCustomers.splice(0,1);
-    //         alert(arrNameCustomers);
-    //         break;
-    //     case '2':
-    //         arrNameCustomers.splice(1,1);
-    //         alert(arrNameCustomers);
-    //         break;
-    //     case '3':
-    //         arrNameCustomers.splice(2,1);
-    //         alert(arrNameCustomers);
-    //         break;
-    //     case '4':
-    //         arrNameCustomers.splice(3,1);
-    //         alert(arrNameCustomers);
-    //         break;
-    //     case '5':
-    //         arrNameCustomers.splice(4,1);
-    //         alert(arrNameCustomers);
-    //         break;
-    //     case '6':
-    //         arrNameCustomers.splice(5,1);
-    //         alert(arrNameCustomers);
-    //         break;
-    //
-    //     case '7':
-    //         arrNameCustomers.splice(6,1);
-    //         alert(arrNameCustomers);
-    //         break;
-    //     case '8':
-    //         arrNameCustomers.splice(7,1);
-    //         alert(arrNameCustomers);
-    //         break;
-    //     case '9':
-    //         arrNameCustomers.splice(8,1);
-    //         alert(arrNameCustomers);
-    //         break;
-    //     case '10':
-    //         arrNameCustomers.splice(9,1);
-    //         alert(arrNameCustomers);
-    //         break;
-    // }
-
-
-
-
 </script>
 
 </body>

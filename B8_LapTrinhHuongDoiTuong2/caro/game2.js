@@ -19,7 +19,7 @@ function Cell(x, y) {
             top+'px; line-height: '+
             DEFAULT_CELL_SIZE+'px;"></div>';
         return cellHtml;
-    };
+    }; //làm bàn cờ
 
     this.draw = function () {
         var cellDiv = document.getElementById("cell-"+x+"-"+y);
