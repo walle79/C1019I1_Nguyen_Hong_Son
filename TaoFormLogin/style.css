@@ -1,0 +1,33 @@
+#hopdangnhap{
+    margin: auto;
+    background-color: #903Bcf;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    color: #f1f1f1;
+    text-shadow:5px 5px 10px black;
+    font-weight: 600;
+}
+#username, #password{
+    width: 100%;
+    height: 30px;
+    background-color: #993ade;
+}
+#submit{
+    margin-top: 20px;
+    height: 30px;
+    width: 150px;
+    background-color: #993ade;
+    color: #f1f1f1;
+    text-shadow:5px 5px 10px black;
+    font-size: 16px;
+}
+#khungdangnhap{
+    padding-top: 100px;
+    background-color: cornflowerblue;
+    height: 100vh;
+}
+#login-false{
+    color: crimson;
+    margin-top: 20px;
+}
