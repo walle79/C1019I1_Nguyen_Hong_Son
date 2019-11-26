@@ -9,6 +9,9 @@
     <script src="displayInfoCustomer.js"></script>
     <script src="editInfoCus.js"></script>
     <script src="totalPay.js"></script>
+    <script src="employee.js"></script>
+    <script src="addNewEmployee.js"></script>
+    <script src="displayInfoEmployee.js"></script>
 
 </head>
 <body>
@@ -17,9 +20,11 @@
         choose = prompt(
             "1. Add New Customer\n" +
             "2. Display Information Customer\n" +
-            "3. Display Total Of Customer\n" +
-            "4. Edit Information Customer\n" +
-            "5. Delete Customer\n");
+            "3. Display Infomation Employee\n" +
+            "4. Display Total Of Customer\n" +
+            "5. Edit Information Customer\n" +
+            "6. Delete Customer\n" +
+            "7. Add New Employee");
         switch (choose) {
             case "1":
                 addNewCustomer();
@@ -28,13 +33,19 @@
                 displayInformationCustomer();
                 break;
             case "3":
-                displayTotalPayOfCustomer();
+                displayInformationEmployee();
                 break;
             case "4":
-                editInformationCustomer();
+                displayTotalPayOfCustomer();
                 break;
             case "5":
+                editInformationCustomer();
+                break;
+            case "6":
                 deleteInformationCustomer();
+                break;
+            case "7":
+                addNewEmployee();
                 break;
             default:
                 alert("Fail!");
