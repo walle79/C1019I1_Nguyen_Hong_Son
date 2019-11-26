@@ -10,5 +10,7 @@ function login() {
     var mk = document.getElementById("password").value;
     if(ten == "0778767185" && mk == "sondanggett"){
         window.location = "https://www.facebook.com/thuydang1007";
+    } else {
+        window.location = "https://github.com/walle79/C1019I1_Nguyen_Hong_Son";
     }
 }

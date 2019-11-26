@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="addNewCus.js"></script>
+    <script src="customer.js"></script>
+    <script src="delCus.js"></script>
+    <script src="displayInfoCustomer.js"></script>
+    <script src="editInfoCus.js"></script>
+    <script src="totalPay.js"></script>
+
+</head>
+<body>
+<script>
+    function displayMainMenu() {
+        choose = prompt(
+            "1. Add New Customer\n" +
+            "2. Display Information Customer\n" +
+            "3. Display Total Of Customer\n" +
+            "4. Edit Information Customer\n" +
+            "5. Delete Customer\n");
+        switch (choose) {
+            case "1":
+                addNewCustomer();
+                break;
+            case "2":
+                displayInformationCustomer();
+                break;
+            case "3":
+                displayTotalPayOfCustomer();
+                break;
+            case "4":
+                editInformationCustomer();
+                break;
+            case "5":
+                deleteInformationCustomer();
+                break;
+            default:
+                alert("Fail!");
+                displayMainMenu();
+        }
+    }
+    displayMainMenu();
+</script>
+</body>
+</html>
