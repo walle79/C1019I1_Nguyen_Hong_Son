@@ -47,6 +47,14 @@ let Employee = function () {
         return this.position;
     };
     this.getSalaryEmployee = function () {
-        return this.salary;
+        if(this.position === "Manager"){
+            return parseInt(this.salary) + 500;
+        } else if(this.position === "Sale"){
+            return parseInt(this.salary) + 300;
+        } else if(this.position === "Marketting"){
+            return parseInt(this.salary) + 200;
+        } else {
+            return this.salary;
+        }
     };
 };
