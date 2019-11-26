@@ -37,19 +37,16 @@ let Employee = function () {
     this.getEmailEmployee = function () {
         return this.email;
     };
-    this.getPhoneEmployee = function (phone) {
-        this.phone = phone;
+    this.getPhoneEmployee = function () {
+        return this.phone;
     };
-    this.getDegreeEmployee = function (degree) {
-        this.degree = degree;
+    this.getDegreeEmployee = function () {
+        return this.degree;
     };
-    this.getPotisionEmployee = function (position) {
-        this.position = position;
+    this.getPotisionEmployee = function () {
+        return this.position;
     };
-    this.getSalaryEmployee = function (salary) {
-        this.salary = salary;
-    };
-    this.getTotalPays = function () {
-        return totalPays = 500 * Number.parseInt(this.rentDays) * (1 - Number.parseFloat(this.discount) / 100);
+    this.getSalaryEmployee = function () {
+        return this.salary;
     };
 };

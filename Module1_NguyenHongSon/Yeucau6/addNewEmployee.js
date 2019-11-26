@@ -6,7 +6,10 @@ function addNewEmployee() {
     employee.setIdCard(prompt("Enter Id Card Employee:"));
     employee.setBirthdayEmployee(checkBirthDay());
     employee.setEmailEmployee(checkEmail());
-    employee.setSalaryEmployee()
+    employee.setSalaryEmployee();
+    employee.setDegreeEmployee(prompt("Enter Degree of Employee:"));
+    employee.setPhoneEmployee(prompt("Enter Phone Number of Employee"));
+    employee.setPotisionEmployee(prompt("Enter Position of Employee"));
 
     arrEmployee.push(employee);
     displayMainMenu();

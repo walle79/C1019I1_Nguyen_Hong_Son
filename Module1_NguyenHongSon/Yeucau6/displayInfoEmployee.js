@@ -1,7 +1,7 @@
 function displayInformationEmployee (){
-    choose = prompt("Chọn khách hàng muốn hiển thị \n" + get2InforEmployee() + arrListCustomer.length + ".Back");
+    choose = prompt("Chọn nhân viên muốn hiển thị \n" + get2InforEmployee() + arrListCustomer.length + ".Back");
     switch (choose) {
-        case (arrListCustomer.length) + "":
+        case (arrEmployee.length) + "":
             displayMainMenu();
             break;
         default:
@@ -30,13 +30,9 @@ function getInformationEmployee(index) {
         + "1. ID Card: " + " " + arrEmployee[index].getIdCard() + "\n"
         + "2. Birthday: " + " " + arrEmployee[index].getBirthdayEmployee() + "\n"
         + "3. Email: " + " " + arrEmployee[index].getEmailEmployee() + "\n"
-        + "4. Address: " + " " + arrEmployee[index].getAddressEmployee() + "\n"
-        + "5. Type Customer: " + " " + arrEmployee[index].getTypeEmployee() + "\n"
-        + "6. Discount: " + " " + arrEmployee[index].getDiscount() + "\n"
-        + "7. Number Of Accompanying: " + " " + arrEmployee[index].getNumberOfAccompanying() + "\n"
-        + "8. Type Room: " + " " + arrEmployee[index].getTypeRoom() + "\n"
-        + "9. Rent Days: " + " " + arrEmployee[index].getRentDays() + "\n"
-        + "10. Type Service: " + " " + arrEmployee[index].getTypeService() + "\n"
-        + "11. TotalPays: " + " " + arrEmployee[index].getTotalPays() + "\n"
+        + "4. Phone: " + " " + arrEmployee[index].getPhoneEmployee() + "\n"
+        + "5. Degree: " + " " + arrEmployee[index].getDegreeEmployee() + "\n"
+        + "6. Potision: " + " " + arrEmployee[index].getPotisionEmployee() + "\n"
+        + "7. Salary: " + " " + arrEmployee[index].getSalaryEmployee() + "\n"
         + "============== \n";
 }
