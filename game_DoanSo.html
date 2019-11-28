@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var arrNum = [1,25,50,75,82,100];
+        var a = prompt("Enter A Number");
+        seqSearch(arrNum,a);
+        function seqSearch(arr, data) {
+            for (var i = 0; i < arr.length; ++i) {
+                if (arr[i] == data && data == "82") {
+                    alert("Congratulation!");
+                    return true;
+                }
+            }
+            if(data == "50"){
+                alert("Too Low");
+                seqSearch(arrNum,prompt("Enter A Number"));
+            } else if(data == "76"){
+                alert("Nearly");
+                seqSearch(arrNum,prompt("Enter A Number"));
+            } else if(data == "88"){
+                alert("Quite High");
+                seqSearch(arrNum,prompt("Enter A Number"));
+            } else if(data == "81"){
+                alert("Extremely Near");
+                seqSearch(arrNum,prompt("Enter A Number"));
+            } else if(data == "84"){
+                alert("Nearly");
+                seqSearch(arrNum,prompt("Enter A Number"));
+            } else {
+                alert("Incorrect! Please Try Again!");
+                seqSearch(arrNum,prompt("Enter A Number"));
+            }
+        }
+
+
+        // binarySearch(arrNum,0,arrNum.length-1,a);
+        // function binarySearch(arr,left,right,data){
+        //     var left = 0;
+        //     var right = arr.length-1;
+        //     if(left<=right){
+        //         var mid = (left + right)/2;
+        //         if (data=arrNum[mid]){
+        //             return mid;
+        //         } else if(data<arrNum[mid]){
+        //             return binarySearch(arr,left,mid-1,data);
+        //         } else {
+        //             return binarySearch(arr,mid+1,right,data);
+        //         }
+        //         return -1;
+        //     }
+        // }
+
+
+
+    </script>
+
+</body>
+</html>
