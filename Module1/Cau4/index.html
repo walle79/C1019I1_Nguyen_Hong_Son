@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <script>
+        var nhanVien1 = new Nhanvien();
+        nhanVien1.setName(prompt("Nhập tên nhân viên: "));
+        nhanVien1.setDay(prompt("Nhập số ngày làm việc: "));
+        nhanVien1.setSalary(prompt("Nhập mức lương cơ bản: "));
+        alert("Tên nhân viên: " + nhanVien1.getName() +
+              "\n Số ngày làm việc: " + nhanVien1.getDayWork() +
+              "\n Lương cơ bản mỗi ngày: " + nhanVien1.getSalary() +
+              "\n Tổng lương: " + nhanVien1.gettotalSalary());
+    </script>
+</body>
+</html>

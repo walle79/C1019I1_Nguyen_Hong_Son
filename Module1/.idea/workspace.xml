@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a813e840-e64b-474b-ae83-7e079ca64ccc" name="Default Changelist" comment="add file">
+      <change afterPath="$PROJECT_DIR$/Cau3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cau3/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cau4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cau4/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cau1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cau1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trash/trash/.idea/C1019I1_Nguyen_Hong_Son.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/C1019I1_Nguyen_Hong_Son.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trash/trash/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trash/trash/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trash/trash/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cau4/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cau4/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Baitap_ValidateAccount/index.html" />
+        <option value="$PROJECT_DIR$/Baitap_ValidateAccount/script.js" />
+        <option value="$PROJECT_DIR$/Baitap_ValidateEmail/script.js" />
+        <option value="$PROJECT_DIR$/Baitap_ValidateClass/script.js" />
+        <option value="$PROJECT_DIR$/Baitap_ValidateClass/index.html" />
+        <option value="$PROJECT_DIR$/Baitap_ValidatePhoneNumber/script.js" />
+        <option value="$PROJECT_DIR$/Baitap_ValidatePhoneNumber/index.html" />
+        <option value="$PROJECT_DIR$/game_caro/text.css" />
+        <option value="$PROJECT_DIR$/game_caro/script.js" />
+        <option value="$PROJECT_DIR$/game_caro/index.html" />
+        <option value="$PROJECT_DIR$/B8_LapTrinhHuongDoiTuong2/caro/game2.js" />
+        <option value="$PROJECT_DIR$/Lamp&amp;Switch/lamp.js" />
+        <option value="$PROJECT_DIR$/Lamp&amp;Switch/switch.js" />
+        <option value="$PROJECT_DIR$/B8_LapTrinhHuongDoiTuong2/lamp/SwitchButton.js" />
+        <option value="$PROJECT_DIR$/AdamEva/apple.js" />
+        <option value="$PROJECT_DIR$/AdamEva/man.js" />
+        <option value="$PROJECT_DIR$/AdamEva/adameva.html" />
+        <option value="$PROJECT_DIR$/B8_LapTrinhHuongDoiTuong2/lamp/Run.js" />
+        <option value="$PROJECT_DIR$/AdamEva/run.js" />
+        <option value="$PROJECT_DIR$/trash/trash/convert.html" />
+        <option value="$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau5.html" />
+        <option value="$PROJECT_DIR$/TaoFormLogin/style.css" />
+        <option value="$PROJECT_DIR$/TaoFormLogin/index.html" />
+        <option value="$PROJECT_DIR$/TaoFormLogin/script.js" />
+        <option value="$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau6/customer.js" />
+        <option value="$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau6/displayInfoCustomer.js" />
+        <option value="$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau6/delCus.js" />
+        <option value="$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau6/editInfoCus.js" />
+        <option value="$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau6/totalPay.js" />
+        <option value="$PROJECT_DIR$/min.html" />
+        <option value="$PROJECT_DIR$/count.html" />
+        <option value="$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau6/index.html" />
+        <option value="$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau6/displayInfoEmployee.js" />
+        <option value="$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau6/employee.js" />
+        <option value="$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau6/addNewEmployee.js" />
+        <option value="$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau6/addNewCus.js" />
+        <option value="$PROJECT_DIR$/Baitap_SuDungThuatToanTimKiem.html" />
+        <option value="$PROJECT_DIR$/Baitap_Dubug.html" />
+        <option value="$PROJECT_DIR$/BaiTap_SuDUngThuatToanTuyenTinh/index.html" />
+        <option value="$PROJECT_DIR$/BaiTap_SuDUngThuatToanTuyenTinh/script.js" />
+        <option value="$PROJECT_DIR$/demo.html" />
+        <option value="$PROJECT_DIR$/game_DoanSo.html" />
+        <option value="$PROJECT_DIR$/Cau1.html" />
+        <option value="$PROJECT_DIR$/Cau1/script.js" />
+        <option value="$PROJECT_DIR$/Cau2/index.html" />
+        <option value="$PROJECT_DIR$/Cau2/script.js" />
+        <option value="$PROJECT_DIR$/Cau1/index.html" />
+        <option value="$PROJECT_DIR$/Cau3/index.html" />
+        <option value="$PROJECT_DIR$/Cau3/script.js" />
+        <option value="$PROJECT_DIR$/Cau4/script.js" />
+        <option value="$PROJECT_DIR$/Cau4/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="96" />
+    <option name="y" value="13" />
+    <option name="width" value="1184" />
+    <option name="height" value="694" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="C1019I1_Nguyen_Hong_Son" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C1019I1_Nguyen_Hong_Son" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C1019I1_Nguyen_Hong_Son" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C1019I1_Nguyen_Hong_Son" type="462c0819:PsiDirectoryNode" />
+              <item name="Cau1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C1019I1_Nguyen_Hong_Son" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C1019I1_Nguyen_Hong_Son" type="462c0819:PsiDirectoryNode" />
+              <item name="Cau2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C1019I1_Nguyen_Hong_Son" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C1019I1_Nguyen_Hong_Son" type="462c0819:PsiDirectoryNode" />
+              <item name="Cau3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C1019I1_Nguyen_Hong_Son" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C1019I1_Nguyen_Hong_Son" type="462c0819:PsiDirectoryNode" />
+              <item name="Cau4" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/B8_LapTrinhHuongDoiTuong2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ProjectCodegym\Module1\src\C1019I1_Nguyen_Hong_Son\BaiTap_SuDUngThuatToanTuyenTinh" />
+      <recent name="D:\ProjectCodegym\Module1\src\C1019I1_Nguyen_Hong_Son" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProjectCodegym\Module1\src\C1019I1_Nguyen_Hong_Son\B8_LapTrinhHuongDoiTuong2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="gamelaixe.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C1019I1_Nguyen_Hong_Son/gamelaixe.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.gamelaixe.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a813e840-e64b-474b-ae83-7e079ca64ccc" name="Default Changelist" comment="" />
+      <created>1572341918388</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572341918388</updated>
+      <workItem from="1572341919522" duration="550000" />
+      <workItem from="1572358682663" duration="760000" />
+      <workItem from="1572405023212" duration="1974000" />
+      <workItem from="1572413863645" duration="667000" />
+      <workItem from="1572417596770" duration="7200000" />
+      <workItem from="1572426818708" duration="1503000" />
+      <workItem from="1572535373906" duration="4411000" />
+      <workItem from="1572574602640" duration="4774000" />
+      <workItem from="1572590375483" duration="2807000" />
+      <workItem from="1572598509224" duration="1459000" />
+      <workItem from="1572656471202" duration="3890000" />
+      <workItem from="1572686765149" duration="596000" />
+      <workItem from="1572745145222" duration="11128000" />
+      <workItem from="1572790008214" duration="11545000" />
+      <workItem from="1572828221131" duration="4422000" />
+      <workItem from="1572834782771" duration="2056000" />
+      <workItem from="1572848984342" duration="5656000" />
+      <workItem from="1572878720166" duration="4479000" />
+      <workItem from="1572928472913" duration="819000" />
+      <workItem from="1572936028292" duration="1722000" />
+      <workItem from="1572938060354" duration="7310000" />
+      <workItem from="1572963241942" duration="2859000" />
+      <workItem from="1572968792168" duration="1636000" />
+      <workItem from="1573029141991" duration="2219000" />
+      <workItem from="1573037398637" duration="5571000" />
+      <workItem from="1573108588344" duration="8818000" />
+      <workItem from="1573190156339" duration="975000" />
+      <workItem from="1573201666290" duration="3548000" />
+      <workItem from="1573262320248" duration="7473000" />
+      <workItem from="1573284162929" duration="569000" />
+      <workItem from="1573386931918" duration="8088000" />
+      <workItem from="1573454722122" duration="6007000" />
+      <workItem from="1573486134899" duration="1422000" />
+      <workItem from="1573527583919" duration="547000" />
+      <workItem from="1573534526576" duration="1924000" />
+      <workItem from="1573546735406" duration="4865000" />
+      <workItem from="1573571263729" duration="4744000" />
+      <workItem from="1573616207951" duration="1019000" />
+      <workItem from="1573627054477" duration="10227000" />
+      <workItem from="1573800117999" duration="10487000" />
+      <workItem from="1573833976859" duration="588000" />
+      <workItem from="1573917792051" duration="2527000" />
+      <workItem from="1573920876404" duration="3728000" />
+      <workItem from="1574000039758" duration="12611000" />
+      <workItem from="1574065730046" duration="2490000" />
+      <workItem from="1574086124860" duration="1204000" />
+      <workItem from="1574138123564" duration="686000" />
+      <workItem from="1574145247530" duration="7390000" />
+      <workItem from="1574237815684" duration="5059000" />
+      <workItem from="1574258604358" duration="10086000" />
+      <workItem from="1574269274479" duration="1244000" />
+      <workItem from="1574320002424" duration="1760000" />
+      <workItem from="1574327319979" duration="599000" />
+      <workItem from="1574608166796" duration="4547000" />
+      <workItem from="1574658182137" duration="887000" />
+      <workItem from="1574664020825" duration="3775000" />
+      <workItem from="1574691458384" duration="596000" />
+      <workItem from="1574750148130" duration="10771000" />
+      <workItem from="1574777315570" duration="8473000" />
+      <workItem from="1574836645138" duration="393000" />
+      <workItem from="1574837130390" duration="1208000" />
+      <workItem from="1574838355177" duration="35000" />
+      <workItem from="1574838407002" duration="591000" />
+      <workItem from="1574839013951" duration="290000" />
+      <workItem from="1574839625989" duration="4671000" />
+      <workItem from="1574927167798" duration="1764000" />
+      <workItem from="1574928957323" duration="1794000" />
+      <workItem from="1574930783555" duration="2182000" />
+      <workItem from="1574951215921" duration="123000" />
+    </task>
+    <task id="LOCAL-00001" summary="add file">
+      <created>1572936951830</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572936951830</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add file">
+      <created>1572938257394</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572938257394</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add file">
+      <created>1572939471521</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572939471521</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add file">
+      <created>1572939763944</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572939763944</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add file">
+      <created>1572941476497</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572941476497</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add file">
+      <created>1573109408616</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573109408616</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add file">
+      <created>1573110649381</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573110649381</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add file">
+      <created>1573457302591</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573457302591</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add file">
+      <created>1573457385586</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573457385586</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add file">
+      <created>1573616247368</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573616247368</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add file">
+      <created>1573616495523</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573616495524</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add file">
+      <created>1573627218314</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1573627218314</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add file">
+      <created>1573631059530</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1573631059530</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add file">
+      <created>1573636037455</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1573636037455</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add file">
+      <created>1574013645059</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1574013645059</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add file">
+      <created>1574068258995</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1574068258995</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add file">
+      <created>1574150985752</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1574150985752</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add file">
+      <created>1574264830071</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1574264830071</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add file">
+      <created>1574270501466</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1574270501466</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add file">
+      <created>1574612716693</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1574612716693</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add file">
+      <created>1574751593747</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1574751593747</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add file">
+      <created>1574754644140</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1574754644140</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add file">
+      <created>1574755965313</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1574755965313</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add file">
+      <created>1574760082573</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1574760082573</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add file">
+      <created>1574929149444</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1574929149444</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="254798000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="96" y="13" width="1184" height="694" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2469459" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32889733" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3985765" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3291367" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.3291367" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21056548" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32889733" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3985765" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3291367" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.3291367" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add file" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaoFormLogin/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B9_XuLyChuoi/Baitap_ValidateAccount/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B9_XuLyChuoi/Baitap_ValidateAccount/script.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B9_XuLyChuoi/Baitap_ValidateEmail/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B9_XuLyChuoi/Baitap_ValidateEmail/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B5_Mang/timgiatritrongmang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau6/addNewCus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/count.html" />
+    <entry file="file://$PROJECT_DIR$/Baitap_Debug.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaoFormLogin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaoFormLogin/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaiTap_SuDUngThuatToanTuyenTinh/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaiTap_SuDUngThuatToanTuyenTinh/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B5_Mang/dictionary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.html" />
+    <entry file="file://$PROJECT_DIR$/trash/trash/xeploai.html" />
+    <entry file="file://$PROJECT_DIR$/trash/trash/xinchao.html" />
+    <entry file="file://$PROJECT_DIR$/trash/trash/xinchao2.html" />
+    <entry file="file://$PROJECT_DIR$/trash/trash/dientichhinhchunhat.html" />
+    <entry file="file://$PROJECT_DIR$/trash/trash/ifelse.html" />
+    <entry file="file://$PROJECT_DIR$/trash/trash/button.html" />
+    <entry file="file://$PROJECT_DIR$/trash/trash/calculator.html" />
+    <entry file="file://$PROJECT_DIR$/trash/trash/chuyendoitiente.html" />
+    <entry file="file://$PROJECT_DIR$/trash/trash/diemtrungbinh.html" />
+    <entry file="file://$PROJECT_DIR$/Cau1.html" />
+    <entry file="file://$PROJECT_DIR$/trash/trash/convert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game_DoanSo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B4_CauTrucLap/Baitap_LuyenTapVongLap01/bai1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B4_CauTrucLap/Thuchanh_SuDungVongLap_for/TheNumberIsN.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B4_CauTrucLap/Thuchanh_SuDungVongLap_for/TinhTong.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B4_CauTrucLap/Thuchanh_SuDungVongLap_While/nhapso.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B5_Mang/hienthisonguyentodautien.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B7_LapTrinhHuongDoiTuong/Baitap_XayDungLopHinhChuNhat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B7_LapTrinhHuongDoiTuong/Baitap_XayDungLopMoTaTemperature.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B7_LapTrinhHuongDoiTuong/Thuchanh_XayDungLopDate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B8_LapTrinhHuongDoiTuong2/lamp/Run.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B8_LapTrinhHuongDoiTuong2/lamp/SwitchButton.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau6/customer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau6/employee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau6/addNewEmployee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1_NguyenHongSon/Yeucau6/displayInfoEmployee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cau1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cau1/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cau2/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cau2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cau3/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cau3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cau4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cau4/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
