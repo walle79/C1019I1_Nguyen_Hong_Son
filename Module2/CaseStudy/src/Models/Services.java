@@ -7,8 +7,18 @@ public abstract class Services {
     private int maxOfPeople;
     private String type;
     private String id;
+    private String accompaniedService;
+
 
     public Services() {
+    }
+
+    public String getAccompaniedService() {
+        return accompaniedService;
+    }
+
+    public void setAccompaniedService(String accompaniedService) {
+        this.accompaniedService = accompaniedService;
     }
 
     public Services(String servicesName, double aresUsed, int feeRent, int maxOfPeople, String type, String id) {

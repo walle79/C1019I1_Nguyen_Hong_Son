@@ -49,14 +49,15 @@ public class House extends Services {
     @Override
     public String showInfo(){
         return  "House" +
-                "\n1. Dịch vụ thuê: " + super.getServicesName() +
-                "\n2. Diện tích sử dụng: " + super.getAresUsed() +
-                "\n3. Số lượng người tối đa: " + super.getMaxOfPeople() +
-                "\n4. Chi phí thuê: " + super.getFeeRent() +
-                "\n5. Kiểu thuê: " + super.getType() +
-                "\n6. Id: " + super.getId() +
+                "\n1. Id: " + super.getId() +
+                "\n2. Dịch vụ thuê: " + super.getServicesName() +
+                "\n3. Diện tích sử dụng: " + super.getAresUsed() +
+                "\n4. Số lượng người tối đa: " + super.getMaxOfPeople() +
+                "\n5. Chi phí thuê: " + super.getFeeRent() +
+                "\n6. Kiểu thuê: " + super.getType() +
                 "\n7. Tiêu chuẩn phòng: " + roomStandard +
                 "\n8. Tiện nghi khác: " + convenientOther +
-                "\n9. Số tầng: " + floor;
+                "\n9. Dịch vụ đi kèm: " + super.getAccompaniedService() +
+                "\n10. Số tầng: " + floor;
     }
 }
