@@ -12,12 +12,16 @@ public class MyList<E> {
         int newSize = elements.length*2;
         elements = Arrays.copyOf(elements,newSize);
     }
-    private void add(E e){
+    void add(E e){
         if(size == elements.length){
             ensureCapa();
         }
         elements[size++] = e;
-
-
+    }
+    public E get(int i){
+        if(i>=size || i <0){
+            throw new IndexOutOfBoundsException("Index: " + i + ", size " + i);
+        }
+        return (E) elements[i];
     }
 }

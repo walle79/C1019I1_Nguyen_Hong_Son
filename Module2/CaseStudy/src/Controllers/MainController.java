@@ -25,7 +25,8 @@ public class MainController extends Services {
                         "\n3. Add New Customer" +
                         "\n4. Show Infomation Customer" +
                         "\n5. Add New Booking Resort" +
-                        "\n6. Exit" );
+                        "\n6. Show Infomation Employee" +
+                        "\n7. Exit" );
                 System.out.print("Enter your choose: ");
                 choose = sc.nextInt();
                 switch (choose){
@@ -48,7 +49,11 @@ public class MainController extends Services {
                         DisplayMainMenu();
                         break;
                     case 6:
-                        System.exit(6);
+                        showInfoEmployee();
+                        DisplayMainMenu();
+                        break;
+                    case 7:
+                        System.exit(7);
                         break;
                     default:
                         System.out.println("Invalid! Please choose again!");
@@ -56,6 +61,27 @@ public class MainController extends Services {
                         break;
         }
     }
+
+    private static void showInfoEmployee() {
+        HashMap<String, Employee> hashMap = new HashMap<String, Employee>();
+        hashMap.put("1",new Employee("Nguyễn Văn A", 18, "Đà Nẵng"));
+        hashMap.put("2",new Employee("Ngô Ngọc Văn", 20, "Huế"));
+        hashMap.put("3",new Employee("Nguyễn Hồng Sơn", 25, "Quảng Nam"));
+        hashMap.put("4",new Employee("Nguyễn Văn An", 30, "Phú Yên"));
+        hashMap.put("5",new Employee("Nguyễn Văn Toàn", 17, "Hội An"));
+        hashMap.put("6",new Employee("Nguyễn Thị Định", 29, "Gia Lai"));
+        hashMap.put("7",new Employee("Lương Kiên", 21, "Quảng Trị"));
+        hashMap.put("8",new Employee("Trần Phúc", 43, "Quảng Bình"));
+        hashMap.put("9",new Employee("Lê Lộc", 24, "Nghệ An"));
+        hashMap.put("10",new Employee("Quách Phú Thành", 26, "Hà Tĩnh"));
+
+        Set<String> keySet = hashMap.keySet();
+        for (String key : keySet) {
+            System.out.println(key + " " + hashMap.get(key));
+        }
+        System.out.println("--------------");
+    }
+
 
     private static void addNewBookingResort() {
         Scanner sc = new Scanner(System.in);
