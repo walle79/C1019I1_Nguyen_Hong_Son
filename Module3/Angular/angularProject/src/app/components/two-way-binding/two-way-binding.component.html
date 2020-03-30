@@ -1,0 +1,14 @@
+<p>two-way-binding works!</p>
+<form>
+  <div class="form-group">
+    <label>Name: {{name}}</label>
+    <input type="text" class="form-control" [(ngModel)]="name" [ngModelOptions]="{standalone: true}">
+	</div>
+<hr>
+{{gender}}
+<select class=" form-control" [(ngModel)]="gender" [ngModelOptions]="{standalone: true}">
+    <option value="0">Vn</option>
+    <option value="1">Fr</option>
+    <option value="2">Us</option>
+    </select>
+</form>

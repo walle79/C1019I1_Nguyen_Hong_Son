@@ -1,0 +1,62 @@
+<div class="container-fluid">
+	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h3 class="panel-title">Reactive Form</h3>
+			</div>
+			<div class="panel-body">
+				<form [formGroup]="frmReg"
+						(ngSubmit)="onSubmitForm()">
+				
+					<div class="form-group">
+						<label for="">Username</label>
+						<input type="text" class="form-control" formControlName="username">
+						<span class="label label-danger" *ngIf="frmReg.controls.username.dirty && frmReg.controls.username.errors?.required">
+							Vui lòng nhập username
+						</span>
+						<span class="label label-danger" *ngIf="frmReg.controls.username.dirty && frmReg.controls.username.errors?.minlength">
+							Username từ 5-20 ký tự
+						</span>
+						<span class="label label-danger" *ngIf="frmReg.controls.username.dirty && frmReg.controls.username.errors?.maxlength">
+							Username từ 5-20 ký tự
+						</span>
+					</div>
+					<div class="form-group">
+						<label for="">Password</label>
+						<input type="password" class="form-control" formControlName="password">
+						<span class="label label-danger" *ngIf="frmReg.controls.password.dirty && frmReg.controls.password.errors?.required">
+							Vui lòng nhập password
+						</span>
+					</div>
+					<div class="form-group">
+						<label for="">Fullname</label>
+						<input type="text" class="form-control" formControlName="fullname">
+						<span class="label label-danger" *ngIf="frmReg.controls.fullname.dirty && frmReg.controls.fullname.errors?.required">
+							Vui lòng nhập fullname
+						</span>
+					</div>
+					<div class="form-group">
+						<label for="">Email</label>
+						<input type="text" class="form-control" formControlName="email">
+						<span class="label label-danger" *ngIf="frmReg.controls.email.dirty && frmReg.controls.email.errors?.pattern">
+							Email không đúng định dạng
+						</span>
+					</div>
+					
+					<div class="form-group">
+						<label for="">Phone</label>
+						<input type="text" class="form-control" formControlName="phone">
+						<span class="label label-danger" *ngIf="frmReg.controls.phone.dirty && frmReg.controls.phone.errors?.required">
+							Vui lòng nhập phone
+						</span>
+					</div>
+				
+					
+				
+					<button [disabled]="frmReg.invalid" type="submit" class="btn btn-primary">Submit</button>
+					<button (click)="onResetForm()" type="submit" class="btn btn-primary" style="margin-left: 5px">Reset</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
