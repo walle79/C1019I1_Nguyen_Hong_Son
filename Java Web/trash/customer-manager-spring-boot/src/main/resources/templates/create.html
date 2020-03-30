@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout :: head"></head>
+<body>
+<form th:object="${customer}" th:action="@{/addCustomer}" method="post">
+    <input type="hidden" th:field="*{id}">
+    <div>
+        <p>Name: </p>
+        <input type="text" th:field="*{name}">
+    </div>
+    <div>
+        <p>Address: </p>
+        <input type="text" th:field="*{address}">
+    </div>
+    <input type="submit" value="Add">
+</form>
+<footer th:replace="layout :: footer"></footer>
+</body>
+</html>

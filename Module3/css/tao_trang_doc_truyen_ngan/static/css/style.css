@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    color: #333;
+}
+#menu1 ul {
+    list-style-type: none;
+    background: #1f568B;
+    text-align: center;
+}
+#menu1 ul li {
+    color: #f1f1f1;
+    display: inline-table;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+#menu1 ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+}
+#menu1 ul li a:hover {
+    background: #f1f1f1;
+    color: #333;
+}
+#menu1 ul li > .sub-menu {
+    display: none;
+    position: absolute;
+}
+#menu1 ul li:hover .sub-menu {
+    display: block;
+}
+#menu2 ul {
+    background: #8ad385;
+    width: 150px;
+    padding: 0;
+    list-style-type: none;
+}
+#menu2 ul li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 1em;
+    position: relative;
+}
+#menu2 ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+}
+#menu2 ul li:hover {
+    background: #CDE2CD;
+}
+#menu2 .sub-menu {
+    position: absolute;
+    left: 150px;
+    top: 0;
+    display: none;
+}
+#menu2 ul li:hover .sub-menu {
+    display: block;
+}
+#menu2 {
+    float: left;
+}
+/* #container {*/
+/*  padding: 0;*/
+/*  position: relative;*/
+/*  left: 0;*/
+/*  width: 100%;*/
+/*}*/
+/*#menu2 {*/
+/*  positon: fixed;*/
+/*  height: 100%;*/
+/*  background-color: #191818;*/
+/*  width: 150px;*/
+/*  left: 0;*/
+/*}*/
+#content {
+    overflow: auto;
+    margin: 1.5em auto;
+}
+.row {
+    float: right;
+    width: 17%;
+    margin-right: 2em;
+}
+#header button, input {
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+}
+#footer p {
+    text-align: center;
+    padding-bottom: 10px;
+    font-style: italic;
+    font-weight: bold;
+    color: darkblue;
+}
+input {
+    height: 25px;
+    width: 500px;
+}
+button {
+    height: 29px;
+    width:60px;
+}
+#header {
+    background-image: url("https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_600/http://kiemhiep.com.vn/wp-content/uploads/2018/10/y-thien-do-long-ky.jpg");
+}
+
+
+

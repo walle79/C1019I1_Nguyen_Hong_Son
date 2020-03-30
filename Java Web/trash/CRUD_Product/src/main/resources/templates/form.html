@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout :: head"></head>
+<body>
+<nav th:replace="layout :: header"></nav>
+
+<div class="container main-content form">
+    <div class="row">
+        <form action="#" th:action="@{/product/save}" th:object="${product}"
+              method="POST" novalidate="novalidate">
+            <input type="hidden" th:field="*{id}" />
+            <div class="form-group">
+                <label>ID</label>
+                <input type="text" class="form-control"
+                       th:field="*{product_id}" />
+                <td th:if="${#fields.hasErrors('product_id')}" th:errors="*{product_id}">ID Error</td>
+            </div>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control"
+                       th:field="*{name}" />
+                <td th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</td>
+            </div>
+            <div class="form-group">
+                <label>Price</label>
+                <input type="text" class="form-control" th:field="*{price}" />
+                <td th:if="${#fields.hasErrors('price')}" th:errors="*{price}">Price Error</td>
+            </div>
+            <div class="form-group">
+                <label>Description</label>
+                <input type="text" class="form-control" th:field="*{description}" />
+                <td th:if="${#fields.hasErrors('description')}" th:errors="*{description}">Description Error</td>
+            </div>
+            <div class="form-group">
+                <label>Origin</label>
+                <input type="text" class="form-control" th:field="*{origin}" />
+                <td th:if="${#fields.hasErrors('origin')}" th:errors="*{origin}">Origin Error</td>
+            </div>
+            <div class="form-group">
+                <label>Status</label>
+                <input type="text" class="form-control" th:field="*{status}" />
+                <td th:if="${#fields.hasErrors('status')}" th:errors="*{status}">Status Error</td>
+            </div>
+            <button type="submit" class="btn btn-primary">Save</button>
+        </form>
+    </div>
+</div><!-- /.container -->
+
+<footer th:replace="layout :: footer"></footer>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout :: head"></head>
+<body>
+<nav th:fragment="header"
+     class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+
+            <a class="navbar-brand" th:href="@{/phones}">MyPhone</a>
+            <a class="navbar-brand" th:href="@{/}">Home</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container main-content list">
+    <div th:if="${success}"
+         class="row alert alert-success alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert"
+                aria-label="Close">
+            <span aria-hidden="true">×</span>
+        </button>
+        <span th:text="${success}"></span>
+    </div>
+    <div class="row">
+        <a th:href="@{/phone/create}" class="btn btn-success pull-left">
+            <span class="glyphicon glyphicon-plus"></span> Add new phone
+        </a>
+        <form class="form-inline pull-right" action="#"
+              th:action="@{/phone/search}" method="GET">
+            <div class="form-group">
+                <input type="text" class="form-control" name="s"
+                       placeholder="Type phone name..." />
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+    </div>
+    <th:block th:if="${#lists.isEmpty(phones)}">
+        <h3>No phone</h3>
+    </th:block>
+
+    <th:block th:unless="${#lists.isEmpty(phones)}">
+        <div class="row">
+            <table class="table table-bordered table-hover">
+                <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Description</th>
+                    <th>Origin</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="contact,iterStat : ${phones}">
+                    <td th:text="${iterStat.count}"></td>
+                    <td th:text="${contact.name}"></td>
+                    <td th:text="${contact.price}"></td>
+                    <td th:text="${contact.description}"></td>
+                    <td th:text="${contact.origin}"></td>
+                    <td><a th:href="@{/customer/{id}/edit(id=${contact.id})}"><span
+                            class="glyphicon glyphicon-pencil"></span></a></td>
+                    <td><a th:href="@{/customer/{id}/delete(id=${contact.id})}"><span
+                            class="glyphicon glyphicon-trash"></span></a></td>
+                </tr>
+                <div>
+                    <a th:href="@{'/phones'(page=${phones.number - 1})}" th:if="${phones.hasPrevious()}">Previous</a>
+                    <span th:text="${phones.number + 1}"></span>/<span th:text="${phones.totalPages}"></span>
+                    <a th:href="@{'/phones'(page=${phones.number + 1})}" th:if="${phones.hasNext()}">Next</a>
+                </div>
+                </tbody>
+
+            </table>
+        </div>
+    </th:block>
+</div>
+<!-- /.container -->
+
+<footer th:replace="layout :: footer"></footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout :: head"></head>
+<body>
+<div th:if="${mess}">
+    <span th:text="${mess}"></span>
+</div>
+    <a th:href="@{/addCustomer}">Add new Customer</a>
+<form th:object="${customer}" th:action="@{/customer/search}" method="get">
+<div id="class">
+    <input type="text" name="search" placeholder="Enter your name: ">
+    <input type="submit" value="Search">
+</div>
+</form>
+    <table>
+        <tr>
+            <td>STT</td>
+            <td>Name</td>
+            <td>Address</td>
+        </tr>
+        <tr th:each="customer, rowstat : ${customers}">
+            <td th:text="${rowstat.count}"></td>
+            <td><a th:href="@{/customer/{id}/view(id=${customer.getId()})}" th:text="${customer.name}"></a> </td>
+            <td th:text="${customer.address}"></td>
+            <td><a th:href="@{/customer/{id}/edit(id=${customer.getId()})}">edit</a> </td>
+            <td><a th:href="@{/customer/{id}/delete(id=${customer.getId()})}">delete</a> </td>
+
+        </tr>
+    </table>
+    <footer th:replace="layout :: footer"></footer>
+</body>
+</html>

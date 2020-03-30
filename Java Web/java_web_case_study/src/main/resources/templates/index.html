@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <title>Furama Resort</title>
+
+    <link href="../static/styleSheet.css" th:href="@{/styleSheet.css}"
+          rel="stylesheet" />
+    <link href="../static/normalize.css" th:href="@{/normalize.css}"
+          rel="stylesheet" />
+
+</head>
+<body>
+<div id="container">
+    <div id="menu">
+        <ul>
+            <li>
+                <a href="#">Đăng ký</a>
+                <ul class="sub-menu">
+                    <li><a th:href="@{/customers}">Customer</a></li>
+                    <li><a th:href="@{/services}">Service</a></li>
+                    <li><a href="#">Contract</a></li>
+                    <li><a href="#">Detail</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Home</a></li>
+            <li>
+                <a href="#">Dịch vụ</a>
+                <ul class="sub-menu">
+                    <li><a href="#">House</a></li>
+                    <li><a href="#">Villa</a></li>
+                    <li><a href="#">Room</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Tìm kiếm</a></li>
+            <li><a href="#">Review</a></li>
+            <img src="img/6xM7wdY.png" height="128" width="128"/>
+            <p>Touch Me</p>
+
+        </ul>
+    </div>
+    <div id="content">
+        <div id="header">
+            <div id="logo"><img src="img/unnamed.png" height="210" width="512" alt="main"/></div>
+            <div id="slogan">
+                <p>Khu nghỉ cao cấp này nằm tại bờ biển đẹp nhất miền trung Việt Nam, được tiếp đón nhiều người nổi tiếng và chính gia. Từng đoạt giải thưởng khu nghỉ mát đẹp và là cửa ngõ vào 4 di tích Di sản thế giới; Huế, Con đường tơ lụa, Mỹ Sơn, Động Phong Nha.
+                </p>
+            </div>
+        </div>
+        <div class="row" id="intro">
+            <div id="box1" class="col">
+                <h2>House</h2>
+                <img src="img/phong-sunspa-resort.jpg" height="128" width="128" alt="house"/>
+                <p>Những căn hộ toát lên sự cao cấp, sang trọng và thời thượng. Các kiến trúc sư 902 Studio không ngừng sáng tạo đưa ra những mẫu thiết kế nội thất căn hộ mang đậm phong cách riêng với sự tính toán bố trí nội thất hợp lý.</p>
+            </div>
+            <div id="box2" class="col">
+                <h2>Villa</h2>
+                <img src="img/phong-vila-sunspa.jpg" height="128" width="128" alt="villa"/>
+                <p>Mẫu biệt thự cao cấp với vẻ đẹp độc đáo và những đường nét kiến trúc, quy mô hoành tráng kết hợp những vật liệu cao cấp được sử dụng và màu sắc phối hợp trang nhã đã tôn vinh quyền lực sở hữu của chủ đầu tư cũng như đưa tiếng nói của chủ đầu tư lên một tầm cao mới.</p>
+            </div>
+            <div id="box3" class="col">
+                <h2>Room</h2>
+                <img src="img/sun-spa-resort-quang-binh.jpg" height="128" width="128" alt="room"/>
+                <p>Phòng được thiết kế kiểu giường tầng dành cho 4 khách, phòng rộng có cửa sổ thoáng mát, nhà vệ sinh riêng trong phòng. Diện tích: 17 m2 Kích thước giường: 1m x 2m Thiết bị: điều hoà, đèn ngủ, móc treo quần áo, rèm cửa, locker</p>
+            </div>
+        </div>
+        <div id="footer">
+            <p>Copywright &copy; ST 2020</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

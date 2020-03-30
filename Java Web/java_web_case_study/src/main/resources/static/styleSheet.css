@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+body {
+    font-family: Arial;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.254;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #3B8BBA;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+a:hover, a:visited {
+    color: #265778;
+}
+#container {
+    padding-left: 150px;
+    position: relative;
+    left: 0;
+    width: 100%;
+}
+#menu {
+    position: fixed;
+    height: 100%;
+    background-color: #191818;
+    width: 150px;
+    left: 0;
+}
+#menu {}
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#menu ul li {
+    line-height: 2.9em;
+    height: 2.9em;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    position: relative;
+}
+#menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 0 1em;
+    border-bottom: 1px solid #333;
+}
+#menu ul li:hover {
+    background-color: #454545;
+}
+#menu .sub-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: #191818;
+}
+#menu ul li:hover .sub-menu {
+    display: block;
+}
+#menu ul img {
+    padding-top: 15px;
+    padding-left: 15px;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+#menu ul img:hover{
+    transform: rotate(3turn);
+}
+#menu ul p {
+    padding-left: 35px;
+    font-family: Arial;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.254;
+}
+#content {
+    padding: 1em 8em;
+}
+#header {
+    text-align: center;
+}
+#slogan {
+    color: #8997A0;
+    font-size: 0.8em;
+}
+.row {
+    overflow: hidden;
+    margin: 1.5em auto;
+}
+.row .col {
+    float: left;
+    width: 31%;
+    margin-right: 1em;
+}
+.row .col:last-child {
+    float: right;
+    margin-right: 0;
+}
+.row .col img {
+    float: left;
+}
+
+#footer {
+    font-size: 85%;
+    border-top: 1px solid #E6E6E6;
+    color: #838383;
+    padding: 1em 3em;
+}
+

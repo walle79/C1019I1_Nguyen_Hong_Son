@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Success</title>
+</head>
+<body>
+
+<h1>Welcome</h1>
+<td th:each="customer:${customers}"></td>
+<h1>Name:
+<td th:text="${customer.username}"></td> </h1>
+<h1>Mail:
+<td th:text="${customer.mail}"></td> </h1>
+<h1>Hello:
+<td th:text="${customer.hello}"></td> </h1>
+
+</body>
+</html>

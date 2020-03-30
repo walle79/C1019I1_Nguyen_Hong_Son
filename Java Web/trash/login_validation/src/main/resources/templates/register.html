@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout :: head"></head>
+<body>
+<nav th:replace="layout :: header"></nav>
+
+<div class="container main-content form">
+    <div class="row">
+        <form action="#" th:action="@{/save}" th:object="${member}"
+              method="POST" novalidate="novalidate">
+            <input type="hidden" th:field="*{id}" />
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" class="form-control"
+                       th:field="*{username}" />
+            </div>
+            <td th:if="${#fields.hasErrors('username')}" th:errors="*{username}">Username Error</td>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label>Confirm</label>
+                <input type="password" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label>Mail</label>
+                <input type="text" class="form-control"
+                       th:field="*{mail}" />
+            </div>
+            <td th:if="${#fields.hasErrors('mail')}" th:errors="*{mail}">Mail Error</td>
+            <div class="form-group">
+                <label>First Name</label>
+                <input type="text" class="form-control"
+                       th:field="*{first_name}" />
+            </div>
+            <td th:if="${#fields.hasErrors('first_name')}" th:errors="*{first_name}">First Name Error</td>
+            <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" class="form-control"
+                       th:field="*{last_name}" />
+            </div>
+            <td th:if="${#fields.hasErrors('last_name')}" th:errors="*{last_name}">Last Name Error</td>
+            <div class="form-group">
+                <label>Gender</label>
+                <select  class="form-control" th:field="*{gender}" >
+                    <option value="">--</option>
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                </select>
+            </div>
+            <td th:if="${#fields.hasErrors('gender')}" th:errors="*{gender}">Gender Error</td>
+            <div class="form-group">
+                <label>Country</label>
+                <input type="text" class="form-control"/>
+            </div>
+            <button type="submit" class="btn btn-primary">Save</button>
+        </form>
+        <form method="get" th:action="@{/home}">
+        <button type="submit" class="btn btn-primary" th:href="@{/home}">Cancel</button>
+        </form>
+    </div>
+</div><!-- /.container -->
+
+<footer th:replace="layout :: footer"></footer>
+</body>
+</html>

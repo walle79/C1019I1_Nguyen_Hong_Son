@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout :: head"></head>
+<body>
+<nav th:replace="layout :: header"></nav>
+
+<div class="container main-content form">
+    <div class="row">
+        <form action="#" th:action="@{/student/save}" th:object="${student}"
+              method="POST" novalidate="novalidate">
+            <input type="hidden" th:field="*{id}" />
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" class="form-control"
+                       th:field="*{name}" />
+                <td th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Full Name Error</td>
+            </div>
+            <div class="form-group">
+                <label>Age</label>
+                <input type="text" class="form-control" th:field="*{age}" />
+                <td th:if="${#fields.hasErrors('age')}" th:errors="*{age}">Age Error</td>
+            </div>
+            <div class="form-group">
+                <label>Mail</label>
+                <input type="text" class="form-control" th:field="*{mail}" />
+                <td th:if="${#fields.hasErrors('mail')}" th:errors="*{mail}">Mail Error</td>
+            </div>
+            <div class="form-group">
+                <label>Phone</label>
+                <input type="text" class="form-control" th:field="*{phone_number}" />
+                <td th:if="${#fields.hasErrors('phone_number')}" th:errors="*{phone_number}">Phone Error</td>
+            </div>
+            <div class="form-group">
+                <label>Teacher</label>
+                <select class="form-control" th:field="*{teacher}" >
+                    <option value="THAO">Thao</option>
+                    <option value="MINH">Minh</option>
+                    <option value="TUNG">Tung</option>
+                    <option value="THUY">Thuy</option>
+                    <option value="CHAU">Chau</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Save</button>
+        </form>
+    </div>
+</div><!-- /.container -->
+
+<footer th:replace="layout :: footer"></footer>
+</body>
+</html>
