@@ -1,7 +1,44 @@
-<div class="row">
-		<!-- <app-reactive-form></app-reactive-form> -->
-		<app-data-driven-form></app-data-driven-form>
-		<!-- <app-movie-list></app-movie-list> -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <a class="navbar-brand" [routerLink]="['/index']">Home</a>
+      </li>
+      <li routerLinkActive="active">
+        <a [routerLink]="['/contact']">Contact</a>
+      </li>
+      <li routerLinkActive="active">
+        <a [routerLink]="['/about']">About</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Panel title</h3>
+        </div>
+        <div class="panel-body">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <button type="button" class="btn btn-primary" [routerLink]="['/index']">Home</button>
+<button type="button" class="btn btn-primary" [routerLink]="['/contact']">Contact</button>
+<button type="button" class="btn btn-primary" [routerLink]="['/about']">About</button> -->
+
+<button type="button" class="btn btn-primary" (click)="navigate('index')">Home</button>
+<button type="button" class="btn btn-primary" (click)="navigate('contact')">Contact</button>
+<button type="button" class="btn btn-primary" (click)="navigate('about')">About</button>
+
+<div class="row" style="margin-top: 30px">
+  <!-- <app-reactive-form></app-reactive-form> -->
+  <app-data-driven-form></app-data-driven-form>
+  <!-- <app-movie-list></app-movie-list> -->
 </div>
 <!-- <div class="container">
 	<div class="row">
