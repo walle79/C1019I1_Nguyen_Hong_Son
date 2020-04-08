@@ -15,7 +15,6 @@ import { CalculatorComponent } from './components/calculator/calculator.componen
 import { ColorPickerComponent } from './components/color-picker/color-picker.component';
 import { ProcessBarComponent } from './components/process-bar/process-bar.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +26,7 @@ import { ProcessBarComponent } from './components/process-bar/process-bar.compon
     ShowPetsComponent,
     CalculatorComponent,
     ColorPickerComponent,
-    ProcessBarComponent,
+    ProcessBarComponent
   
   ],
   imports: [

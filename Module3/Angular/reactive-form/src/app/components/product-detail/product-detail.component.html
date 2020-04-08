@@ -1,0 +1,13 @@
+
+<ng-container *ngIf="product; else noProduct">
+	<h2>Name: {{ product.name }}</h2>
+<h2>Price: {{ product.price | currency:'VND':true }}</h2>
+<h2>Status: {{ product.status? 'Yes' : 'No' }}</h2>
+</ng-container>
+<ng-template #noProduct>
+	No Product
+</ng-template>
+<button type="button" class="btn btn-success"(click)="onEdit()">Edit</button>
+<button type="button" class="btn btn-danger" (click)="onDelete()" style="margin-left: 5px">Delete</button>
+<hr/>
+<button type="button" class="btn btn-warning" (click)="onBackList()">Back to list</button>

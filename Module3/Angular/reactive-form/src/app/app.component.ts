@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router} from '@angular/router';
+
 
 @Component({
   selector: 'app-root',
@@ -8,10 +9,12 @@ import { Router} from '@angular/router';
 })
 export class AppComponent {
   title = 'reactive-form';
+  
 
 
   constructor(
-  	public routerService : Router
+  	public routerService : Router,
+    
   	){}
 
   navigate(url : string) {

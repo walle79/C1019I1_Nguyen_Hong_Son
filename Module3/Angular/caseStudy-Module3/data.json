@@ -1,0 +1,63 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "fullName": "Nguyễn Hồng Sơn",
+      "position": "Nhân Viên",
+      "academy": "Đại Học",
+      "part": "Kinh Doanh",
+      "birthday": "18/12/1995",
+      "id_number": "191870245",
+      "salary": "8",
+      "email": "1995hongson@gmail.com",
+      "phone_number": "0964091274",
+      "address": "Thanh Khê - ĐN"
+    },
+    {
+      "fullName": "Đặng Thị Thu Thủy",
+      "position": "Nhân Viên",
+      "academy": "Đại Học",
+      "part": "Kinh Doanh",
+      "birthday": "07/10/1998",
+      "id_number": "112233445",
+      "salary": "6",
+      "email": "dangthithuthuy98dn@gmail.com",
+      "phone_number": "0778767185",
+      "address": "Hòa Vang - ĐN",
+      "id": 2
+    },
+    {
+      "fullName": "Nguyễn Yến Nhi",
+      "position": "Quản Lý",
+      "academy": "Đại Học",
+      "part": "Lễ Tân",
+      "birthday": "22/10/1998",
+      "id_number": "998877665",
+      "salary": "11",
+      "email": "lamphonglibra@gmail.com",
+      "phone_number": "0349781256",
+      "address": "Hải Châu - ĐN",
+      "id": 3
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "fullName": "Nguyễn Văn A",
+      "email": "nguyenvana@gmail.com",
+      "phone_number": "0112233445"
+    },
+    {
+      "id": 2,
+      "fullName": "Nguyễn Trần B",
+      "email": "nguyentranb@gmail.com",
+      "phone_number": "0223344556"
+    },
+    {
+      "id": 1,
+      "fullName": "Nguyễn Đình T",
+      "email": "nguyendinht@gmail.com",
+      "phone_number": "0334455667"
+    }
+  ]
+}

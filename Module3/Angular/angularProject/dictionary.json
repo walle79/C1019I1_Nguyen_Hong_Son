@@ -1,0 +1,9 @@
+{
+  "vocabularies": [
+    { "id": 1, "eng": "chicken", "vie": "(n) con gà" },
+    { "id": 1, "eng": "blind", "vie": "(a) mù" },
+    { "id": 1, "eng": "fan", "vie": "(n) cổ động viên" },
+    { "id": 1, "eng": "shirt", "vie": "(n) áo thun" },
+    { "id": 1, "eng": "chair", "vie": "(n) cái ghế" }
+  ]
+}

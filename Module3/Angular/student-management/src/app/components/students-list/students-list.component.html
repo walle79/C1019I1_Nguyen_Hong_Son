@@ -1,0 +1,31 @@
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title">Student-Management</h3>
+	</div>
+	<div class="panel-body">
+		<button type="button" class="btn btn-danger" [routerLink]="['/students/add']" style="margin-bottom: 10px">Add Student</button>
+		<table class="table table-bordered table-hover">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Gentle</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr *ngFor="let item of students; let i = index">
+					<td>{{ i+1 }}</td>
+					<td>{{ item.name }}</td>
+					<td>{{ item.age }}</td>
+					<td>{{ item.gentle? 'Boy' : 'Girl' }}</td>
+					<td>
+						<button type="button" class="btn btn-primary">Edit</button>
+						<button type="button" class="btn btn-warning" style="margin-left: 5px" (click)="onDeleteStudent(item.id)" >Delete</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

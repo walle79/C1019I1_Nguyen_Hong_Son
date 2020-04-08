@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Nguyen Hong Son",
+      "age": 25,
+      "gentle": true
+    },
+    {
+      "id": 2,
+      "name": "Dang Thi Thu Thuy",
+      "age": 22,
+      "gentle": false
+    },
+    {
+      "id": 3,
+      "name": "Nguyen Yen Nhi",
+      "age": 22,
+      "gentle": false
+    }
+  ]
+}
