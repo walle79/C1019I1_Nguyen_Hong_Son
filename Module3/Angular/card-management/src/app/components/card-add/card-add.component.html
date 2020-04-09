@@ -1,0 +1,39 @@
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title">Add New Card</h3>
+	</div>
+	<div class="panel-body" >
+		<form [formGroup] = "frsAddCard">
+			<div class="form-group">
+				<label for="">Name</label>
+				<input type="text" class="form-control" formControlName="name">
+				<p class="text-danger" *ngIf="frsAddCard.controls.name.errors?.required && frsAddCard.controls.name.touched">Vui lòng nhập tên thẻ</p>
+			</div>
+			<div class="form-group">
+				<label for="">Price</label>
+				<input type="text" class="form-control" formControlName="price">
+				<p class="text-danger" *ngIf="frsAddCard.controls.price.errors?.required && frsAddCard.controls.price.touched">Vui lòng nhập mệnh giá</p>
+			</div>
+			<div class="form-group">
+				<label for="">Discount</label>
+				<input type="text" class="form-control" formControlName="discount">
+				<p class="text-danger" *ngIf="frsAddCard.controls.discount.errors?.required && frsAddCard.controls.discount.touched">Vui lòng nhập chiết khấu</p>
+			</div>
+			<div class="form-group">
+				<label for="">Amount</label>
+				<input type="text" class="form-control" formControlName="amount">
+				<p class="text-danger" *ngIf="frsAddCard.controls.amount.errors?.required && frsAddCard.controls.amount.touched">Vui lòng nhập số lượng</p>
+			</div>
+			<div class="form-group">
+				<label for="">Status</label>
+				<select id="input" class="form-control" formControlName="status" >
+					<option value="true">Available</option>
+					<option value="false">Unavailable</option>
+				</select>
+				<p class="text-danger" *ngIf="frsAddCard.controls.status.errors?.required && frsAddCard.controls.status.touched">Vui lòng chọn trạng thái</p>
+			</div>
+
+			<button [disabled]="this.frsAddCard.invalid" type="submit" class="btn btn-primary" (click)="onAddCard()" >Submit</button>
+		</form>
+	</div>
+</div>

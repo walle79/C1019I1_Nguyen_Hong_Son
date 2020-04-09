@@ -1,0 +1,60 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "name": "Viettel",
+      "price": 50000,
+      "discount": "27%",
+      "amount": 4,
+      "status": true
+    },
+    {
+      "id": 2,
+      "name": "Mobifone",
+      "price": 20000,
+      "discount": "30%",
+      "amount": 4,
+      "status": true
+    },
+    {
+      "id": 3,
+      "name": "Vinaphone",
+      "price": 100000,
+      "discount": "26%",
+      "amount": 4,
+      "status": true
+    },
+    {
+      "name": "VietnamMobile",
+      "price": "50000",
+      "discount": "30%",
+      "amount": "3",
+      "status": "true",
+      "id": 4
+    },
+    {
+      "name": "Mobifone",
+      "price": "100000",
+      "discount": "27%",
+      "amount": "5",
+      "status": "false",
+      "id": 7
+    },
+    {
+      "name": "555",
+      "price": "555",
+      "discount": "55",
+      "amount": "555",
+      "status": "",
+      "id": 9
+    },
+    {
+      "name": "Viettel",
+      "price": "10000",
+      "discount": "26%",
+      "amount": "3",
+      "status": "true",
+      "id": 10
+    }
+  ]
+}
